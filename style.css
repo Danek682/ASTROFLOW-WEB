@@ -1,0 +1,329 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter",sans-serif;
+  --borderWidth: 1.65px;
+--borderGradient: linear-gradient(to top, rgba(67,88,91,1), rgba(161,255,194,1))
+}
+
+.container {
+  min-height: 100vh;
+  background: 
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.4)),
+    url("./images/Gradient-mesh-1 1.png") center / cover no-repeat;
+    padding-top: 20px;
+    filter: contrast(1.2) saturate(1.2)
+}
+.header-buttons {
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-buttons-main {
+    display: flex;
+    gap: 10px;
+}
+
+.button-prize-img {
+    width: 15px;
+height: 16px;
+}
+
+.header-buttons-main__user,
+.header-buttons-main__add,
+.header-buttons__prize {
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 30px;
+height: 30px;
+box-sizing: border-box;
+border-radius: 65px;
+box-shadow: 0px 0px 14px 0px rgba(161, 255, 194, 1),0px var(--controlOutlineWidth, 2px) 0px 0px rgba(161, 255, 194, 0.1);
+background: rgba(31, 57, 58, 0.6);
+color: rgba(255, 255, 255, 0.6);
+font-size: 18px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: center;
+border: none;
+}
+
+.header-buttons-main__user::before,
+.header-buttons-main__add::before,
+.header-buttons__prize::before {
+content: '';
+position: absolute;
+inset: 0;
+padding: var(--borderWidth);
+background-image: var(--borderGradient);
+border-radius: inherit;
+mask: 
+conic-gradient(#000 0 0) content-box exclude,
+conic-gradient(#000 0 0);
+}
+
+.header-title {
+color: rgba(255, 255, 255, 1);
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+padding: 5px 0px 10px 0px;
+}
+
+.moon-container {
+    margin-bottom: 10px;
+width: 100%;
+height: 64px;
+flex-direction: row;
+box-sizing: border-box;
+border-radius: 15px;
+box-shadow: 0px 0px 14px 0px rgba(161, 255, 194, 1),0px var(--controlOutlineWidth, 2px) 0px 0px rgba(161, 255, 194, 0.1);
+background: rgba(31, 57, 58, 0.6);
+position: relative;
+}
+
+.moon-container::before  {
+content: '';
+position: absolute;
+inset: 0;
+padding: var(--borderWidth);
+background-image: var(--borderGradient);
+border-radius: inherit;
+mask: 
+conic-gradient(#000 0 0) content-box exclude,
+conic-gradient(#000 0 0);
+}
+
+.moon-container-wrapper {
+    padding: 0px 20px 0px 20px;
+}
+
+.moon-container {
+    display: flex;
+    padding-left: 11.5px;
+}
+
+.moon img {
+width: 22px;
+height: 22px;
+}
+
+.moon p {
+color: rgba(255, 255, 255, 1);
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+text-align: center;
+margin: 5px 0px 0px 0px;
+}
+
+.moon {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.moon:not(:first-child) {
+    padding-left: 6px;
+}
+
+.moon-course {
+    margin-left: 5px;
+position: relative;
+width: 58px;
+height: 54px;
+display: flex;
+flex-direction: column;
+vertical-align: middle;
+justify-content: center;
+align-items: center;
+margin-top: 5px;
+padding: 3px 0px 3px 0px;
+box-sizing: border-box;
+border-radius: 10px;
+border: none;
+}
+
+.moon-course::before {
+content: '';
+position: absolute;
+inset: 0;
+padding: var(--borderWidth);
+background-image: var(--borderGradient);
+border-radius: inherit;
+mask: 
+conic-gradient(#000 0 0) content-box exclude,
+conic-gradient(#000 0 0);
+}
+
+.moon-course__name {
+color: rgba(255, 255, 255, 1);
+font-size: 10px;
+line-height: auto;
+font-weight: 400;
+text-align: center;
+}
+
+.moon-course__date {
+color: rgba(255, 255, 255, 1);
+font-size: 8px;
+line-height: auto;
+font-weight: 400;
+text-align: center;
+}
+
+.zodiac-sign {
+    flex-direction: column;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px 10px 20px;
+    width: 167px;
+    height: 140px;
+    box-sizing: border-box;
+border-radius: 15px;
+box-shadow: 0px 0px 14px 0px rgba(161, 255, 194, 1),0px var(--controlOutlineWidth, 2px) 0px 0px rgba(161, 255, 194, 0.1);
+background: rgba(31, 57, 58, 0.6);
+position: relative;
+}
+
+.zodiac-sign::before {
+content: '';
+position: absolute;
+inset: 0;
+padding: 2px;
+background-image: var(--borderGradient);
+border-radius: inherit;
+mask: 
+conic-gradient(#000 0 0) content-box exclude,
+conic-gradient(#000 0 0);
+}
+
+.zodiac-sign span {
+color: rgba(255, 255, 255, 0.6);
+font-size: 12px;
+font-weight: 500;
+line-height: 15px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.zodiac-sign img {
+    width: 100px;
+    height: 100px;
+}
+
+.zodiac-buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.zodiac-buttons__button {
+margin-top: 10px;
+    margin-left: 10px;
+width: 135px;
+height: 44px;
+padding: 0px 20px 0px 20px;
+justify-content: center;
+align-items: center;
+box-sizing: border-box;
+border-radius: 15px;
+box-shadow: 0px 0px 14px 0px rgba(161, 255, 194, 1),0px var(--controlOutlineWidth, 2px) 0px 0px rgba(161, 255, 194, 0.1);
+background: rgba(31, 57, 58, 0.6);
+text-align: center;
+position: relative;
+border: none;
+}
+
+.zodiac-buttons__button::before {
+content: '';
+position: absolute;
+inset: 0;
+padding: 2px;
+background-image: var(--borderGradient);
+border-radius: inherit;
+mask: 
+conic-gradient(#000 0 0) content-box exclude,
+conic-gradient(#000 0 0);
+}
+
+.zodiac-buttons__button span {
+margin-top: 5px;
+ color: rgba(255, 255, 255, 0.6);
+font-size: 12px;
+font-weight: 500;
+}
+
+.affirmation {
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.affirmation-day {
+color: rgba(255, 255, 255, 1);
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+}
+
+.affirmation-info {
+position: relative;
+box-sizing: border-box;
+border-radius: 15px;
+box-shadow: 0px 0px 14px 0px rgba(161, 255, 194, 1),0px var(--controlOutlineWidth, 2px) 0px 0px rgba(161, 255, 194, 0.1);
+background: rgba(31, 57, 58, 0.6);
+}
+
+.affirmation-info p {
+margin: 0;
+padding: 5px 54px 5px 10px;
+color: rgba(255, 255, 255, 1);
+font-size: 12px;
+font-weight: 350;
+line-height: 15px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.affirmation-info::before {
+content: '';
+position: absolute;
+inset: 0;
+padding: 2px;
+background-image: var(--borderGradient);
+border-radius: inherit;
+mask: 
+conic-gradient(#000 0 0) content-box exclude,
+conic-gradient(#000 0 0);
+}
+
+.nav-wrapper {
+    position: relative;
+}
+
+.background {
+ position: absolute;
+ width: 99%;
+ top: -25px;
+ left: 2px;
+}
+
+.nav-panel {
+    margin: 26px 20px 0px 20px;
+    display: flex;
+    gap: 3px;
+}
+
+.border-nav {
+    z-index: -1;
+}

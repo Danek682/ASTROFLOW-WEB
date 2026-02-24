@@ -372,7 +372,7 @@ width: clamp(15px, calc(15px + 9 * ((100vw - 320px) / 416)), 24px);
     linear-gradient(to bottom, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.4)),
     url("./images/Gradient-mesh-14.jpg") center / cover no-repeat;
     padding-top: 20px;
-    filter: contrast(1.3) saturate(1.2)
+    filter: contrast(1.4) saturate(1.2)
 }
 
 .header-buttons-main {
@@ -461,3 +461,107 @@ width: clamp(30px, calc(30px + (50 - 30) * ((100vw - 320px) / (736 - 320))), 50p
     font-size: clamp(8px, calc(8px + (14 - 8) * ((100vw - 320px) / (736 - 320))), 14px);
 }
 }
+
+@media (min-width: 736px) and (max-width: 991px) {
+
+    .container {
+  background: 
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.4)),
+    url("./images/Gradient-mesh-14.jpg") center / cover no-repeat;
+    padding-top: 20px;
+    filter: contrast(1.4) saturate(1.2)
+}
+
+.header-buttons-main__user,
+.header-buttons-main__add,
+.header-buttons__prize {
+    width: clamp(60px,calc(60px + 20 * ((100vw - 736px) / 255)),80px);
+
+  height: clamp(60px,calc(60px + 20 * ((100vw - 736px) / 255)),80px);
+
+  font-size: clamp(36px,calc(36px + 12 * ((100vw - 736px) / 255)),48px);
+}
+
+.button-prize-img {
+  height: clamp(26px,calc(26px + 8 * ((100vw - 736px) / 255)),34px);
+  width: clamp(24px,calc(24px + 8 * ((100vw - 736px) / 255)),32px);
+}
+
+.header-buttons-main {
+    gap: 30px;
+}
+
+.moon-container {
+   height: clamp(152px, calc(152px + 48 * ((100vw - 736px) / 255)), 200px);
+}
+
+.zodiac-buttons__button {
+height: clamp(118px, calc(118px + 60 * ((100vw - 736px) / 255)), 178px);
+width: clamp(339px, calc(339px + 126 * ((100vw - 736px) / 255)), 465px);
+}
+
+.zodiac-sign {
+width: clamp(399px, calc(399px + 211 * ((100vw - 736px) / 255)), 610px);
+height: clamp(394px, calc(394px + 154 * ((100vw - 736px) / 255)), 548px);
+}
+
+.zodiac-buttons__button span {
+    font-size: clamp(32px, calc(32px + 10 * ((100vw - 736px) / 255)), 42px);
+}
+.zodiac-sign span {
+    font-size: clamp(32px, calc(32px + 20 * ((100vw - 736px) / 255)), 52px);
+}
+
+.moon-course {
+  width: clamp(117px, calc(117px + 48 * ((100vw - 736px) / 255)), 165px);
+  height: clamp(112px, calc(112px + 48 * ((100vw - 736px) / 255)), 160px);
+  padding: 5px;
+}
+
+.moon img {
+width: clamp(52px, calc(52px + 30 * ((100vw - 736px) / 255)), 82px);
+height: clamp(52px, calc(52px + 30 * ((100vw - 736px) / 255)), 82px);
+}
+
+.moon p {
+  padding-top: 15px;
+  font-size: clamp(36px, calc(36px + 12 * ((100vw - 736px) / 255)), 48px);
+}
+
+.moon-course__name {
+  font-size: clamp(20px, calc(20px + 10 * ((100vw - 736px) / 255)), 30px);
+}
+
+.moon-course__date {
+  font-size: clamp(18px, calc(18px + 10 * ((100vw - 736px) / 255)), 28px);
+}
+
+.moon-container {
+gap: clamp(0px, calc(0px + 20 * ((100vw - 320px) / (736 - 320))), 20px);
+}
+
+.zodiac-sign img {
+  width: clamp(300px, calc(300px + 100 * ((100vw - 736px) / 255)), 400px);
+  height: clamp(300px, calc(300px + 130 * ((100vw - 736px) / 255)), 430px);
+}
+
+.header-title,
+.affirmation-day {
+    font-size: clamp(36px, calc(36px + 20 * ((100vw - 736px) / 255)), 56px);
+}
+.affirmation-info p {
+    font-size: clamp(36px, calc(36px + 10 * ((100vw - 736px) / 255)), 46px);
+  line-height: clamp(44px, calc(44px + 36 * ((100vw - 736px) / 255)), 56px);
+}
+
+.link-container img {
+width: clamp(30px, calc(30px + (50 - 30) * ((100vw - 320px) / (736 - 320))), 50px);
+    height: clamp(30px, calc(30px + (50 - 30) * ((100vw - 320px) / (736 - 320))), 50px);
+}
+
+.link-container p {
+    font-size: clamp(8px, calc(8px + (14 - 8) * ((100vw - 320px) / (736 - 320))), 14px);
+}
+}
+
+

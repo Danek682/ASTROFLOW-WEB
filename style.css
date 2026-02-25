@@ -456,10 +456,8 @@ width: 1.875rem;
 
     .container {
   background: 
-    linear-gradient(to bottom, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.4)),
-    url("./images/Gradient-mesh-14.jpg") center / cover no-repeat;
+    url("./images/tab.png") center / cover no-repeat;
     padding-top: 20px;
-    filter: contrast(1.4) saturate(1.2)
 }
 
 .header-buttons-main__user,

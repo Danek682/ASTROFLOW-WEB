@@ -282,7 +282,6 @@ text-align: center;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 1.625rem;
 }
 
 .link-container {
@@ -412,17 +411,15 @@ width: 1.875rem;
 
   .nav-panel {
     margin-top: clamp(16px, calc(16px + (28 - 16) * ((100vw - 321px) / 415)), 28px);
-    padding: clamp(10px, calc(10px + (15 - 10) * ((100vw - 321px) / 415)), 15px);
+    padding: 0.9375rem;
   }
 }
 
 @media (min-width: 736px) and (max-width: 991px) {
 .container {
   background: 
-    linear-gradient(to bottom, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.4)),
-    url("../images/Gradient-mesh-14.jpg") center / cover no-repeat;
+    url("../images/tab.png") center / cover no-repeat;
     padding-top: 20px;
-    filter: contrast(1.4) saturate(1.2)
 }
      .header-buttons-main__close {
     width: clamp(48px, calc(48px + (80 - 48) * ((100vw - 736px) / 255)), 80px);

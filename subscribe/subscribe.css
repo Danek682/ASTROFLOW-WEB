@@ -1,0 +1,516 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter",sans-serif;
+ --borderWidth: 0.103rem; 
+--borderGradient: linear-gradient(to top, rgba(67,88,91,1), rgba(161,255,194,1));
+
+}
+
+.container {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background: 
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.4)),
+    url("../images/Gradient-mesh-1 1.png") center / cover no-repeat;
+    padding-top: 1.25rem;
+    filter: contrast(1.2) saturate(1.2)
+}
+
+.header-buttons {
+ padding: 0 1.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-buttons-main__close {
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 1.875rem;
+height: 1.875rem;
+box-sizing: border-box;
+border-radius: 4.0625rem;
+box-shadow: 0px 0px 14px 0px rgba(161, 255, 194, 1),0px var(--controlOutlineWidth, 2px) 0px 0px rgba(161, 255, 194, 0.1);
+background: rgba(31, 57, 58, 0.6);
+color: rgba(255, 255, 255, 0.6);
+font-size: 1.125rem;
+font-weight: 500;
+line-height: 1.375rem;
+text-align: center;
+border: none;
+}
+
+.header-title {
+color: rgba(255, 255, 255, 1);
+font-size: 1.5rem;
+font-weight: 600;
+line-height: 1.1875rem;
+text-align: center;
+padding: 0.3125rem 0 0.625rem 0;
+}
+
+.header-buttons-main__close::before {
+    content: '';
+position: absolute;
+inset: 0;
+padding: var(--borderWidth);
+background-image: var(--borderGradient);
+border-radius: inherit;
+mask: 
+conic-gradient(#000 0 0) content-box exclude,
+conic-gradient(#000 0 0);
+}
+
+.premium-description {
+    display: flex;
+    justify-content: center;
+}
+
+.premium-description__block {
+width: 18.5625rem;
+height: 5.75rem;  
+padding: 0.3125rem 1.875rem 0.625rem 1.875rem;
+align-items: center;
+box-sizing: border-box;
+border-radius: 0.9375rem;
+box-shadow: 0px 0px 14px 0px rgba(161, 255, 194, 1),0px var(--controlOutlineWidth, 2px) 0px 0px rgba(161, 255, 194, 0.1);
+background: rgba(31, 57, 58, 0.01);
+text-align: center;
+position: relative;
+border: none;
+}
+
+.premium-description__block::before {
+content: '';
+position: absolute;
+inset: 0;
+padding: var(--borderWidth);
+background-image: var(--borderGradient);
+border-radius: inherit;
+mask: 
+conic-gradient(#000 0 0) content-box exclude,
+conic-gradient(#000 0 0);
+}
+
+.premium-description__block span {
+color: rgba(255, 255, 255, 1);
+ font-size: 0.9375rem;
+font-weight: 500;
+ line-height: 0.9375rem;
+text-align: center;
+}
+
+.premium-variables {
+    display: flex;
+    margin: 0 auto;
+    padding: 25px 15px 20px 15px;
+    gap: 5px;
+    align-items: anchor-center;
+}
+
+.premium-variable {
+ width: 5.8125rem;
+height: 12.6875rem;
+ padding: 1.5625rem 0.9375rem;
+align-items: center;
+box-sizing: border-box;
+ border-radius: 0.9375rem;
+box-shadow: 0px 0px 14px 0px rgba(161, 255, 194, 1),0px var(--controlOutlineWidth, 2px) 0px 0px rgba(161, 255, 194, 0.1);
+background: rgba(31, 57, 58, 0.01);
+text-align: center;
+position: relative;
+border: none;
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+}
+
+.premium-variable-month {
+width: 5.8125rem;
+ height: 14.0625rem;
+ padding: 2.1875rem 0.9375rem;
+align-items: center;
+box-sizing: border-box;
+border-radius: 0.9375rem;
+box-shadow: 0px 0px 14px 0px rgba(161, 255, 194, 1),0px var(--controlOutlineWidth, 2px) 0px 0px rgba(161, 255, 194, 0.1);
+background: rgba(31, 57, 58, 0.01);
+text-align: center;
+position: relative;
+border: none;
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+}
+
+.premium-variable-month::before {
+content: '';
+position: absolute;
+inset: 0;
+padding: var(--borderWidth);
+background-image: var(--borderGradient);
+border-radius: inherit;
+mask: 
+conic-gradient(#000 0 0) content-box exclude,
+conic-gradient(#000 0 0);
+}
+
+.premium-variable::before {
+content: '';
+position: absolute;
+inset: 0;
+padding: var(--borderWidth);
+background-image: var(--borderGradient);
+border-radius: inherit;
+mask: 
+conic-gradient(#000 0 0) content-box exclude,
+conic-gradient(#000 0 0);
+}
+
+.term {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.term-limit {
+color: rgba(255, 255, 255, 1);
+ font-size: 1rem;
+font-weight: 600;
+line-height: 1.5rem;
+text-align: center;
+ padding-bottom: 0.3125rem;
+}
+
+.pay-of-day {
+ color: rgba(255, 255, 255, 0.5);
+font-size: 0.5625rem;
+font-weight: 500;
+ line-height: 0.9375rem;
+text-align: center;
+margin: 0;
+}
+
+.card-in-prize {
+color: rgba(255, 255, 255, 0.5);
+ font-size: 0.625rem;
+font-weight: 500;
+text-align: center;
+}
+
+.prise-to-pay {
+ color: rgba(255, 255, 255, 1);
+font-size: 0.75rem;
+font-weight: 500;
+line-height: 1.3125rem;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.undo-block {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 0.625rem;
+}
+
+.undo-block span {
+ color: rgba(255, 255, 255, 1);
+font-size: 0.75rem;
+font-weight: 300;
+line-height: 1.125rem;
+text-align: center;
+}
+
+.sebscribe {
+    display: flex;
+    margin: 0 auto;
+}
+
+.subscribe-button {
+width: 16.875rem;
+padding: 0.625rem 1.25rem;
+align-items: center;
+box-sizing: border-box;
+border-radius: 0.9375rem;
+box-shadow: 0px 0px 14px 0px rgba(161, 255, 194, 1),0px var(--controlOutlineWidth, 2px) 0px 0px rgba(161, 255, 194, 0.1);
+background: rgba(31, 57, 58, 0.6);
+color: rgba(255, 255, 255, 1);
+font-size: 0.9375rem;
+font-weight: 500;
+line-height: 1.375rem;
+text-align: center;
+}
+
+.privacy-policy {
+margin: 0.625rem 0.625rem 0 0.625rem;
+display: flex;
+}
+
+.privacy-policy p {
+color: rgba(255, 255, 255, 1);
+font-size: 0.625rem;
+font-weight: 300;
+line-height: 0.8125rem;
+text-align: center;
+}
+
+.privacy-policy a {
+    text-decoration: none;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+}
+
+.nav-wrapper {
+    position: relative;
+    margin-top: auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.nav-panel {
+     border-top: 2px solid rgb(103, 153, 106);
+    padding: 0.9375rem;
+     box-sizing: border-box;
+  border-radius: 2.5rem 2.5rem 0 0; 
+    box-shadow: 0px 0px 14px 0px rgba(161, 255, 194, 1),0px var(--controlOutlineWidth, 2px) 0px 0px rgba(161, 255, 194, 0.1);
+     padding-top: 0.938rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.625rem;
+}
+
+.link-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link-container .isActive {
+margin: 0;
+color: rgba(255, 255, 255, 1);
+font-size: 0.5rem;
+font-weight: 500;
+line-height: 0.625rem;
+text-align: center;
+}
+
+.link-container p {
+    margin: 0;
+color: rgba(255, 255, 255, 0.5);
+font-size: 0.5rem;
+font-weight: 500;
+line-height: 0.625rem;
+text-align: center;
+};
+
+
+.link-container a {
+justify-content: center;
+}
+.link-container img {
+justify-content: center;
+width: 1.875rem;
+ height: 1.875rem;
+}
+
+@media (min-width: 321px) and (max-width: 736px) {
+
+.container {
+  background: 
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.4)),
+    url("../images/Gradient-mesh-14.jpg") center / cover no-repeat;
+    padding-top: 20px;
+    filter: contrast(1.4) saturate(1.2)
+}
+  .header-buttons-main__close {
+    width: clamp(30px, calc(30px + (48 - 30) * ((100vw - 321px) / 415)), 48px);
+    height: clamp(30px, calc(30px + (48 - 30) * ((100vw - 321px) / 415)), 48px);
+  }
+
+  .header-buttons-main__close img {
+    width: clamp(14px, calc(14px + (24 - 14) * ((100vw - 321px) / 415)), 24px);
+    height: clamp(14px, calc(14px + (24 - 14) * ((100vw - 321px) / 415)), 24px);
+  }
+
+  .undo-block span {
+    font-size: clamp(12px, calc(12px + (16 - 12) * ((100vw - 321px) / 415)), 16px);
+    line-height: clamp(18px, calc(18px + (24 - 18) * ((100vw - 321px) / 415)), 24px);
+  }
+
+  .header-title {
+    font-size: clamp(24px, calc(24px + (36 - 24) * ((100vw - 321px) / 415)), 36px);
+    line-height: clamp(28px, calc(28px + (40 - 28) * ((100vw - 321px) / 415)), 40px);
+  }
+
+  .premium-description__block {
+    width: clamp(297px, calc(297px + (420 - 297) * ((100vw - 321px) / 415)), 420px);
+    height: clamp(92px, calc(92px + (140 - 92) * ((100vw - 321px) / 415)), 140px);
+    padding: clamp(5px, calc(5px + (18 - 5) * ((100vw - 321px) / 415)), 18px) clamp(30px, calc(30px + (34 - 30) * ((100vw - 321px) / 415)), 34px);
+  }
+  .premium-description__block span {
+    font-size: clamp(15px, calc(15px + (20 - 15) * ((100vw - 321px) / 415)), 20px);
+    line-height: clamp(18px, calc(18px + (26 - 18) * ((100vw - 321px) / 415)), 26px);
+  }
+
+  .premium-variable,
+  .premium-variable-month {
+    width: clamp(93px, calc(93px + (160 - 93) * ((100vw - 321px) / 415)), 160px);
+  }
+  .premium-variable { 
+    height: clamp(203px, calc(203px + (300 - 203) * ((100vw - 321px) / 415)), 300px);
+    padding: clamp(16px, calc(16px + (28 - 16) * ((100vw - 321px) / 415)), 28px);
+  }
+  .premium-variable-month {
+    height: clamp(225px, calc(225px + (340 - 225) * ((100vw - 321px) / 415)), 340px);
+    padding: clamp(20px, calc(20px + (32 - 20) * ((100vw - 321px) / 415)), 32px);
+  }
+
+  .term-limit {
+    font-size: clamp(16px, calc(16px + (24 - 16) * ((100vw - 321px) / 415)), 24px);
+    line-height: clamp(20px, calc(20px + (28 - 20) * ((100vw - 321px) / 415)), 28px);
+  }
+
+  .pay-of-day {
+    font-size: clamp(9px, calc(9px + (14 - 9) * ((100vw - 321px) / 415)), 14px);
+  }
+
+  .card-in-prize {
+    font-size: clamp(10px, calc(10px + (14 - 10) * ((100vw - 321px) / 415)), 14px);
+  }
+
+  .prise-to-pay {
+    font-size: clamp(12px, calc(12px + (20 - 12) * ((100vw - 321px) / 415)), 20px);
+  }
+
+  .subscribe-button {
+    width: clamp(270px, calc(270px + (420 - 270) * ((100vw - 321px) / 415)), 420px);
+    font-size: clamp(15px, calc(15px + (18 - 15) * ((100vw - 321px) / 415)), 18px);
+    padding: clamp(8px, calc(8px + (14 - 8) * ((100vw - 321px) / 415)), 14px) clamp(12px, calc(12px + (28 - 12) * ((100vw - 321px) / 415)), 28px);
+  }
+
+  .privacy-policy p {
+    font-size: clamp(10px, calc(10px + (14 - 10) * ((100vw - 321px) / 415)), 14px);
+    line-height: clamp(13px, calc(13px + (20 - 13) * ((100vw - 321px) / 415)), 20px);
+  }
+
+  .link-container img {
+    width: clamp(30px, calc(30px + (40 - 30) * ((100vw - 321px) / 415)), 40px);
+    height: clamp(30px, calc(30px + (40 - 30) * ((100vw - 321px) / 415)), 40px);
+  }
+
+  .link-container p,
+  .link-container .isActive {
+    font-size: clamp(8px, calc(8px + (12 - 8) * ((100vw - 321px) / 415)), 12px);
+  }
+
+  .nav-panel {
+    margin-top: clamp(16px, calc(16px + (28 - 16) * ((100vw - 321px) / 415)), 28px);
+    padding: clamp(10px, calc(10px + (15 - 10) * ((100vw - 321px) / 415)), 15px);
+  }
+}
+
+@media (min-width: 736px) and (max-width: 991px) {
+.container {
+  background: 
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.4)),
+    url("../images/Gradient-mesh-14.jpg") center / cover no-repeat;
+    padding-top: 20px;
+    filter: contrast(1.4) saturate(1.2)
+}
+     .header-buttons-main__close {
+    width: clamp(48px, calc(48px + (80 - 48) * ((100vw - 736px) / 255)), 80px);
+    height: clamp(48px, calc(48px + (80 - 48) * ((100vw - 736px) / 255)), 80px);
+  }
+
+  .header-title {
+    font-size: clamp(36px, calc(36px + (56 - 36) * ((100vw - 736px) / 255)), 56px);
+    line-height: clamp(40px, calc(40px + (60 -
+
+
+0) * ((100vw - 736px) / 255)), 60px);
+  }
+
+  .premium-description__block {
+    width: clamp(420px, calc(420px + (600 - 420) * ((100vw - 736px) / 255)), 600px);
+    height: clamp(140px, calc(140px + (172 - 140) * ((100vw - 736px) / 255)), 172px);
+    padding: clamp(18px, calc(18px + (30 - 18) * ((100vw - 736px) / 255)), 30px) clamp(34px, calc(34px + (48 - 34) * ((100vw - 736px) / 255)), 48px);
+  }
+  .premium-description__block span {
+    font-size: clamp(20px, calc(20px + (24 - 20) * ((100vw - 736px) / 255)), 24px);
+    line-height: clamp(26px, calc(26px + (32 - 26) * ((100vw - 736px) / 255)), 32px);
+  }
+
+  .premium-variable,
+  .premium-variable-month {
+    width: clamp(160px, calc(160px + (213 - 160) * ((100vw - 736px) / 255)), 213px);
+  }
+  .premium-variable {
+    height: clamp(300px, calc(300px + (353 - 300) * ((100vw - 736px) / 255)), 353px);
+    padding: clamp(28px, calc(28px + (40 - 28) * ((100vw - 736px) / 255)), 40px);
+  }
+  .premium-variable-month {
+    height: clamp(340px, calc(340px + (400 - 340) * ((100vw - 736px) / 255)), 400px);
+    padding: clamp(32px, calc(32px + (46 - 32) * ((100vw - 736px) / 255)), 46px);
+  }
+
+  .term-limit {
+    font-size: clamp(24px, calc(24px + (30 - 24) * ((100vw - 736px) / 255)), 30px);
+  }
+
+  .pay-of-day {
+    font-size: clamp(14px, calc(14px + (18 - 14) * ((100vw - 736px) / 255)), 18px);
+  }
+
+  .card-in-prize {
+    font-size: clamp(14px, calc(14px + (20 - 14) * ((100vw - 736px) / 255)), 20px);
+  }
+
+  .prise-to-pay {
+    font-size: clamp(20px, calc(20px + (28 - 20) * ((100vw - 736px) / 255)), 28px);
+  }
+
+  .subscribe-button {
+    width: clamp(420px, calc(420px + (600 - 420) * ((100vw - 736px) / 255)), 600px);
+    font-size: clamp(18px, calc(18px + (26 - 18) * ((100vw - 736px) / 255)), 26px);
+    padding: clamp(12px, calc(12px + (18 - 12) * ((100vw - 736px) / 255)), 18px) clamp(18px, calc(18px + (36 - 18) * ((100vw - 736px) / 255)), 36px);
+  }
+
+  .privacy-policy p {
+    font-size: clamp(14px, calc(14px + (16 - 14) * ((100vw - 736px) / 255)), 16px);
+    line-height: clamp(20px, calc(20px + (24 - 20) * ((100vw - 736px) / 255)), 24px);
+  }
+
+  .link-container img {
+    width: clamp(40px, calc(40px + (50 - 40) * ((100vw - 736px) / 255)), 50px);
+    height: clamp(40px, calc(40px + (50 - 40) * ((100vw - 736px) / 255)), 50px);
+  }
+
+  .link-container p,
+  .link-container .isActive {
+    font-size: clamp(12px, calc(12px + (16 - 12) * ((100vw - 736px) / 255)), 16px);
+  }
+
+  .nav-panel {
+    margin-top: clamp(28px, calc(28px + (40 - 28) * ((100vw - 736px) / 255)), 40px);
+    padding: clamp(15px, calc(15px + (20 - 15) * ((100vw - 736px) / 255)), 20px);
+  }
+
+  .header-buttons-main__close img {
+    width: clamp(24px, calc(24px + (40 - 24) * ((100vw - 736px) / 255)), 40px);
+    height: clamp(24px, calc(24px + (40 - 24) * ((100vw - 736px) / 255)), 40px);
+  }
+
+  .undo-block span {
+    font-size: clamp(16px, calc(16px + (20 - 16) * ((100vw - 736px) / 255)), 20px);
+    line-height: clamp(24px, calc(24px + (30 - 24) * ((100vw - 736px) / 255)), 30px);
+  }
+}
+
+

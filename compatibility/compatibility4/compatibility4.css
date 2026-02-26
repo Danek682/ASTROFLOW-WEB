@@ -24,7 +24,7 @@ body {
 
 .check-compatibility-wrapper {
     flex: 1;
-    padding-top: 5px;
+    padding-top: 0.313rem;
     display: flex;
     margin: 0 auto;
     flex-direction: column;
@@ -37,11 +37,11 @@ body {
 justify-content: center;
 align-items: center;
 position: relative;
-width: 150px;
-height: 150px;
+width: 9.375rem;
+height: 9.375rem;
 box-sizing: border-box;
-border-radius: 150px;
-box-shadow: 0px 0px 14px 0px rgba(161, 255, 194, 1),0px var(--controlOutlineWidth, 2px) 0px 0px rgba(161, 255, 194, 0.1);
+border-radius: 9.375rem;
+box-shadow: 0px 0px 0.875rem 0px rgba(161, 255, 194, 1),0px var(--controlOutlineWidth, 2px) 0px 0px rgba(161, 255, 194, 0.1);
 background: rgba(76, 101, 91, 1);
 }
 
@@ -50,24 +50,24 @@ display: flex;
 justify-content: center;
 align-items: center;
 position: relative;
-width: 150px;
-height: 150px;
+width: 9.375rem;
+height: 9.375rem;
 box-sizing: border-box;
-border-radius: 150px;
+border-radius: 9.375rem;
 box-shadow: 0px 0px 14px 0px rgba(161, 255, 194, 1),0px var(--controlOutlineWidth, 2px) 0px 0px rgba(161, 255, 194, 0.1);
 background: rgba(40, 54, 61, 1);
 position: relative;
-margin-left: -30px;
+margin-left: -1.875rem;
 z-index: 2;
 }
 
 .compatibility-check {
 color: rgba(255, 255, 255, 1);
-font-size: 18px;
+font-size: 1.125rem;
 font-weight: 300;
-line-height: 22px;
+line-height: 1.375rem;
 text-align: center;
-margin-top: 15px;
+margin-top: 0.938rem;
 }
 
 .nav-wrapper {
@@ -78,7 +78,7 @@ margin-top: 15px;
 }
 
 .nav-panel {
-     border-top: 2px solid rgb(103, 153, 106);
+     border-top: 0.125rem solid rgb(103, 153, 106);
     padding: 0.9375rem;
      box-sizing: border-box;
   border-radius: 2.5rem 2.5rem 0 0; 

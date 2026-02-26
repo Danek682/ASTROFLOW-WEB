@@ -20,9 +20,9 @@ body {
 
 .title-two {
  color: rgba(255, 255, 255, 1);
-font-size: 18px;
+font-size: 1.125rem;
 font-weight: 700;
-line-height: 29px;
+line-height:  1.813rem;
 text-align: center;
 }
 
@@ -37,7 +37,7 @@ text-align: center;
     flex-direction: column;
     width: 80%;
     margin: 0 auto;
-    gap: 40px;
+    gap: 2.5rem;
 }
 
 .checkbox-wrapper {
@@ -46,21 +46,21 @@ text-align: center;
 
 .checkbox-wrapper label {
   color: rgba(255, 255, 255, 1);
-font-size: 14px;
+font-size: 0.875rem;
 font-weight: 300;
-line-height: 17px;
+line-height: 1.063rem;
 text-align: center;
-padding-left: 4px;
+padding-left: 0.25rem;
 display: flex;
 align-items: center;
 }
 
 .checkbox-wrapper input {
   appearance: none;
-  width: 16px;
-  height: 16px;
-  border: 1px solid #fff;
-  border-radius: 3px;
+  width: 1rem;
+  height: 1rem;
+  border: 0.063rem solid #fff;
+  border-radius: 0.188rem;
   background: transparent;
   cursor: pointer;
   position: relative;
@@ -73,12 +73,12 @@ align-items: center;
 .checkbox-wrapper input:checked::after {
   content: "";
   position: absolute;
-  left: 4px;
-  top: 1px;
-  width: 4px;
-  height: 8px;
+  left: 0.25rem;
+  top: 0.063rem;
+  width: 0.25rem;
+  height: 0.5rem;
   border: solid #000;
-  border-width: 0 2px 2px 0;
+  border-width: 0 0.125rem 0.125rem 0;
   transform: rotate(45deg);
 }
 
@@ -86,7 +86,7 @@ align-items: center;
 .form-birthday,
 .form-timeBirthday,
 .form-city {
-  gap: 10px;
+  gap: 0.625rem;
   display: flex;
   flex-direction: column;
 }
@@ -96,17 +96,17 @@ align-items: center;
 .form-timeBirthday__label,
 .city-name__label {
  color: rgba(255, 255, 255, 1);
-font-size: 14px;
+font-size: 0.875rem;
 font-weight: 300;
-line-height: 17px;
+line-height: 1.063rem;
 text-align: left;
-padding-left: 10px;
+padding-left: 0.625rem;
 }
 
 .form-input__wrapper {
   position: relative;
   width: 100%;
-  border-radius: 14px;
+  border-radius: 0.875rem;
 }
 
 .form-name__input,
@@ -114,10 +114,10 @@ padding-left: 10px;
 .form-timeBirthday__input,
 .form-city__input {
   width: 100%;
-padding: 10px 20px 10px 20px;
+padding: 0.625rem 1.25rem 0.625rem 1.25rem;
 color: rgba(255, 255, 255, 0.6);
 box-sizing: border-box;
-border-radius: 15px;
+border-radius: 0.938rem;
 box-shadow: 0px 0px 14px 0px rgba(161, 255, 194, 1),0px var(--controlOutlineWidth, 2px) 0px 0px rgba(161, 255, 194, 0.1);
 background: rgba(31, 57, 58, 0.6);
 }
@@ -131,9 +131,9 @@ background: rgba(31, 57, 58, 0.6);
 
 .form-city__input option {
 color: rgba(255, 255, 255, 0.6);
-font-size: 18px;
+font-size: 1.125rem;
 font-weight: 500;
-line-height: 22px;
+line-height: 1.375rem;
 text-align: left;
 }
 
@@ -151,29 +151,29 @@ pointer-events: none;
 }
 
 .next-button {
-margin: 81px auto 0 auto;
+margin: 5.063rem auto 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 90%;
-height: 50px;
-padding: 10px 20px 10px 20px;
+height: 3.125rem;
+padding: 0.625rem 1.25rem 0.625rem 1.25rem;
 box-sizing: border-box;
-border-radius: 15px;
+border-radius: 0.938rem;
 box-shadow: 0px 0px 14px 0px rgba(161, 255, 194, 1),0px var(--controlOutlineWidth, 2px) 0px 0px rgba(161, 255, 194, 0.1);
 background: rgba(31, 57, 58, 0.6);
 text-align: center;
 position: relative;
 border: none;
-  text-decoration: none;
-  font-size: 18px;
+text-decoration: none;
+font-size: 1.125rem;
 font-weight: 500;
-line-height: 22px;
+line-height: 1.375rem;
 color: rgba(255, 255, 255, 0.6);
 }
 
 .next-button::before{
-     content: '';
+content: '';
 position: absolute;
 inset: 0;
 padding: var(--borderWidth);
@@ -187,12 +187,12 @@ pointer-events: none;
 
 .privacy-policy {
 color: rgba(255, 255, 255, 1);
-font-size: 11px;
+font-size: 0.688rem;
 font-weight: 300;
-line-height: 13px;
+line-height: 0.813rem;
 text-align: center;
-margin-top: 10px;
-padding: 0px 20px 0px 20px;
+margin-top: 0.625rem;
+padding: 0px 1.25rem 0px 1.25rem;
 }
 
 .privacy-policy span {
@@ -207,7 +207,7 @@ padding: 0px 20px 0px 20px;
 }
 
 .nav-panel {
-     border-top: 2px solid rgb(103, 153, 106);
+     border-top: 0.125rem solid rgb(103, 153, 106);
     padding: 0.9375rem;
      box-sizing: border-box;
   border-radius: 2.5rem 2.5rem 0 0; 

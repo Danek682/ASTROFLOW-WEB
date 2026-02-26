@@ -244,6 +244,21 @@ font-size: 0.9375rem;
 font-weight: 500;
 line-height: 1.375rem;
 text-align: center;
+position: relative;
+border: none;
+}
+
+.subscribe-button::before {
+content: '';
+position: absolute;
+inset: 0;
+padding: var(--borderWidth);
+background-image: var(--borderGradient);
+border-radius: inherit;
+mask: 
+conic-gradient(#000 0 0) content-box exclude,
+conic-gradient(#000 0 0);
+pointer-events: none;
 }
 
 .privacy-policy {

@@ -21,21 +21,21 @@ body {
 
 .two-title {
  color: rgba(255, 255, 255, 1);
-font-size: 20px;
+font-size: 1.25rem;
 font-weight: 700;
-line-height: 29px;
+line-height: 1.813rem;
 text-align: center;
 }
 
 .check-compatibility {
     flex: 1;
-    padding-top: 5px;
+    padding-top: 0.313rem;
     display: flex;
     margin: 0 auto;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 .compatibility-you {
@@ -43,10 +43,10 @@ display: flex;
 justify-content: center;
 align-items: center;
 position: relative;
-width: 150px;
-height: 150px;
+width: 9.375rem;
+height: 9.375rem;
 box-sizing: border-box;
-border-radius: 150px;
+border-radius: 9.375rem;
 box-shadow: 0px 0px 14px 0px rgba(161, 255, 194, 1),0px var(--controlOutlineWidth, 2px) 0px 0px rgba(161, 255, 194, 0.1);
 background: rgba(76, 101, 91, 1);
 }
@@ -56,10 +56,10 @@ background: rgba(76, 101, 91, 1);
 justify-content: center;
 align-items: center;
 position: relative;
-width: 150px;
-height: 150px;
+width: 9.375rem;
+height: 9.375rem;
 box-sizing: border-box;
-border-radius: 150px;
+border-radius: 9.375rem;
 box-shadow: 0px 0px 14px 0px rgba(161, 255, 194, 1),0px var(--controlOutlineWidth, 2px) 0px 0px rgba(161, 255, 194, 0.1);
 background: rgba(40, 54, 61, 1);
 position: relative;
@@ -84,43 +84,43 @@ pointer-events: none;
 }
 
 .check-compatibility__button {
-margin: 81px auto 0 auto;
+margin: 5.063rem auto 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 90%;
-height: 50px;
-padding: 10px 20px 10px 20px;
+height: 3.125rem;
+padding: 0.625rem 1.25rem 0.625rem 1.25rem;
 box-sizing: border-box;
-border-radius: 15px;
+border-radius: 0.938rem;
 box-shadow: 0px 0px 14px 0px rgba(161, 255, 194, 1),0px var(--controlOutlineWidth, 2px) 0px 0px rgba(161, 255, 194, 0.1);
 background: rgba(31, 57, 58, 0.6);
 text-align: center;
 position: relative;
 border: none;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 0.875rem;
 font-weight: 500;
-line-height: 22px;
+line-height: 1.375rem;
 color: rgba(255, 255, 255, 0.6);
 }
 
 .two-tags {
 display: flex;
 justify-content: center;
-gap: 10px;
+gap: 0.625rem;
 flex-wrap: wrap;
-width: 260px;
+width: 16.25rem;
 height: auto;
 }
 
 .two-tags__block {
-padding: 7px 14px 7px 14px;
-height: 32px;
+padding: 0.438rem 0.875rem 0.438rem 0.875rem;
+height: 2rem;
 width: auto;
 box-sizing: border-box;
-border-radius: 15px;
-box-shadow: 0px 0px 14px 0px rgba(161, 255, 194, 1),0px var(--controlOutlineWidth, 2px) 0px 0px rgba(161, 255, 194, 0.1);
+border-radius: 0.938rem;
+box-shadow: 0px 0px 0.875rem 0px rgba(161, 255, 194, 1),0px var(--controlOutlineWidth, 2px) 0px 0px rgba(161, 255, 194, 0.1);
 background: rgba(31, 57, 58, 0.6);
 position: relative;
 }
@@ -141,10 +141,9 @@ pointer-events: none;
 
 .two-tags__block span {
  color: rgba(255, 255, 255, 1);
-font-size: 12px;
+font-size: 0.75rem;
 font-weight: 300;
-line-height: 18px;
-letter-spacing: 0%;
+line-height: 1.125rem;
 text-align: center;
 display: flex;
 align-items: center;
@@ -158,7 +157,7 @@ align-items: center;
 }
 
 .nav-panel {
-     border-top: 2px solid rgb(103, 153, 106);
+     border-top: 0.125rem solid rgb(103, 153, 106);
     padding: 0.9375rem;
      box-sizing: border-box;
   border-radius: 2.5rem 2.5rem 0 0; 

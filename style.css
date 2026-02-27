@@ -37,6 +37,7 @@ height: 1rem;
 .header-buttons-main__user,
 .header-buttons-main__add,
 .header-buttons__prize {
+  text-decoration: none;
 position: relative;
 display: flex;
 justify-content: center;

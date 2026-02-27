@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/editProfile/editProfile.css">
+    <link rel="icon" href="favicon.png">
+    <title>Редактирование профиля</title>
+    <script src="./editProfile.js" defer></script>
+</head>
+<body>
+        <main class="container">
+            <section class="main">
+                <header class="header">
+                     <button class="header-buttons-main__close"><img src="../images/+.svg" alt="Закрыть"></button> 
+                     <h1 class="header-title">Редактирование профиля</h1>
+                </header>
+                <div class="profile">
+                    <button class="profile-picture">
+                        И
+                    </button>
+                    <span class="profile-edit">
+                        Изменить
+                    </span>
+                </div>
+                <form class="form">
+                    <div class="form-input">
+                        <label for="birthday" class="form-name__label">Имя</label>
+                            <div class="form-input__wrapper">
+                                <input type="text" id="name" class="form-name__input" name="your-birthday">
+                                <button type="button" class="modal-name__button">
+                                    <img src="/images/about.svg" alt="Поиск" class="search-icon"> 
+                                </button>
+                            </div>
+                        <label for="путау" class="form-name__label">Пол</label>
+                            <div class="form-input__wrapper">
+                                <input type="text" id="name" class="form-name__input" name="your-birthday">
+                                <button type="button" class="modal-button">
+                                    <img src="/images/about.svg" alt="Поиск" class="search-icon"> 
+                                </button>
+                            </div>
+                        <label for="birthday" class="form-name__label">Имя</label>
+                            <div class="form-input__wrapper">
+                                <input type="text" id="name" class="form-name__input" name="your-birthday">
+                                <button type="button" class="modal-button">
+                                    <img src="/images/about.svg" alt="Поиск" class="search-icon"> 
+                                </button>
+                            </div>
+                        <label for="birthday" class="form-name__label">Имя</label>
+                            <div class="form-input__wrapper">
+                                <input type="text" id="name" class="form-name__input" name="your-birthday">
+                                <button type="button" class="modal-button">
+                                    <img src="/images/about.svg" alt="Поиск" class="search-icon"> 
+                                </button>
+                            </div>
+                        <label for="birthday" class="form-name__label">Имя</label>
+                            <div class="form-input__wrapper">
+                                <input type="text" id="name" class="form-name__input" name="your-birthday">
+                                <button type="button" class="modal-button">
+                                    <img src="/images/about.svg" alt="Поиск" class="search-icon"> 
+                                </button>
+                            </div>
+                            
+                            <button class="saveChanges">Сохранить изменения</button>
+                        </div>
+                    </form>
+            </section>
+            <!-- МОДАЛЬНЫЕ ОКНА -->
+                <div class="modal" id="subscribe-modal">
+                    <div class="modal__content modalOpen">
+                        <h1 class="modal__content-title">Изменение имени</h1>
+                             <div class="form-input__wrapper">
+                                <input type="text" id="name" class="form-name__input" name="your-birthday">
+                                <button type="button" class="modal-name__button-clear">
+                                    <img src="/images/+.svg" alt="Поиск"> 
+                                </button>
+                            </div>
+                                <div class="modal-content__buttons">
+                                    <button class="next-button__save-name">Сохранить изменения</button>
+                                    <span class="close-button">Закрыть</span>
+                                </div>
+                    </div>
+                </div>
+                <!-- ----------------->
+        <section class="nav-wrapper"> 
+            <nav class="nav-panel">
+                <div class="link-container">
+                    <a href="#"><img src="/images/Prognos.svg"></a>
+                    <p>Прогноз</p>
+                </div>
+                <div class="link-container">
+                    <a href="#"><img src="/images/Consultation.svg"></a>
+                    <p >Консультации</p>
+                </div>
+                <div class="link-container">
+                    <a href="/index.html"><img src="/images/main.svg"></a>
+                    <p>Главная</p>
+                </div>
+                <div class="link-container">
+                    <a href="#"><img src="/images/sovmestimost.svg"></a>
+                    <p>Совместимость</p>
+                </div>
+                <div class="link-container">
+                    <a href="#"><img src="/images/settings.svg"></a>
+                    <p>Настройки</p>
+                </div>
+            </nav>
+        </section>
+    </main>
+</body>
+</html>
